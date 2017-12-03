@@ -1,0 +1,29 @@
+html.has-pattern {
+	background: url(../img/pattern.png);
+}
+.modal.no-background {
+	background: transparent;
+	box-shadow: none;
+}
+.modal img.radius-3 {
+	border-radius: 3px;
+}
+.modal img.radius-3 {
+	border-radius: 3px;
+}
+.modal img.radius-5 {
+	border-radius: 3px;
+}
+.modal img.radius-10 {
+	border-radius: 3px;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
