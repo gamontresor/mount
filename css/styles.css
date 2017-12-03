@@ -1,0 +1,29 @@
+html.has-pattern {
+	background: url(https://i.gyazo.com/6804a6cc4ca364cd22dc37d4699ef0c0.png);
+}
+.modal.no-background {
+	background: transparent;
+	box-shadow: none;
+}
+.modal img.radius-3 {
+	border-radius: 3px;
+}
+.modal img.radius-3 {
+	border-radius: 3px;
+}
+.modal img.radius-5 {
+	border-radius: 3px;
+}
+.modal img.radius-10 {
+	border-radius: 3px;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
