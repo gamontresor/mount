@@ -60,14 +60,11 @@ html.has-pattern {
 .imagemodal img.radius-3 {
 	border-radius: 3px;
 }
-.imagemodal img.radius-3 {
-	border-radius: 3px;
-}
 .imagemodal img.radius-5 {
-	border-radius: 3px;
+	border-radius: 5px;
 }
 .imagemodal img.radius-10 {
-	border-radius: 3px;
+	border-radius: 10px;
 }
 
 body {
