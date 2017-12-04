@@ -1,20 +1,72 @@
 html.has-pattern {
 	background: url(../img/pattern.png);
 }
-.modal.no-background {
-	background: transparent;
-	box-shadow: none;
+
+.imagemodal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	align-items: center;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.5);
 }
-.modal img.radius-3 {
+
+.imagemodal-content {
+	animation: zoom 200ms cubic-bezier(0.19, 1, 0.22, 1);
+	margin: auto;
+	display: block;
+	max-width: 700px;
+}
+
+.imagemodal.closing {
+	animation: opacity 200ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.imagemodal-content.closing {
+	animation: zoom-inverse 200ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+@keyframes zoom {
+	from {
+		transform: scale(0);
+	}
+    to {
+		transform: scale(1);
+	}
+}
+
+@keyframes zoom-inverse {
+    from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(0);
+	}
+}
+
+@keyframes opacity {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+
+.imagemodal img.radius-3 {
 	border-radius: 3px;
 }
-.modal img.radius-3 {
+.imagemodal img.radius-3 {
 	border-radius: 3px;
 }
-.modal img.radius-5 {
+.imagemodal img.radius-5 {
 	border-radius: 3px;
 }
-.modal img.radius-10 {
+.imagemodal img.radius-10 {
 	border-radius: 3px;
 }
 
